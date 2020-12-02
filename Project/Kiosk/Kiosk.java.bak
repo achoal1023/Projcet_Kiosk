@@ -55,7 +55,6 @@ class Kiosk extends JFrame implements ActionListener{
 		loadImg();
 		setPanel();
 		setUI();
-		connect();
 	}
 
 	void setPanel(){
@@ -424,6 +423,7 @@ class Kiosk extends JFrame implements ActionListener{
 			fileWriter.write(saveStr);
 			fileWriter.close();
 		}catch(IOException ie){}
+		connect();
     } 
 
 
