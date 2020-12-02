@@ -24,7 +24,7 @@ class Kiosk extends JFrame implements ActionListener{
 	BufferedOutputStream bos; //Filter 
 
 	String fname = "C:/Users/achoa/Desktop/Project/Kiosk/주문내역.txt";
-
+///
 	Container cp;
 	JPanel pN, pS;
 	JPanel pC1, pC2, pC3, pC4, pC5, pC6; // 가운데 패널
